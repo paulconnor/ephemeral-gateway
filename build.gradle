@@ -25,17 +25,17 @@ plugins {
 apply plugin: 'com.ca.apim.gateway.gateway-export-plugin'
 apply plugin: 'com.ca.apim.gateway.gateway-developer-plugin'
 
-group '<my.group.id>'
-version = '<version>'
+group 'acme'
+version = '1.0.0.0'
 
 GatewayConnection {
-    url = 'https://<host.name>:8443/restman'
+    url = 'https://auth.dev.ca.com:8443/restman'
     userName = 'admin'
     userPass = 'password'
 }
 
 GatewayExportConfig {
-    folderPath = '/<project.folder>'
+    folderPath = '/demo'
 }
 
 repositories {
