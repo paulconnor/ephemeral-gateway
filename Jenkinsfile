@@ -8,7 +8,7 @@ pipeline {
         BASE_IMAGE_TAG = 'wlui-test'
         BASE_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
         BASE_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
-        NEW_IMAGE_NAME = 'ephemeral-gateway'
+        NEW_IMAGE_NAME = 'docker.sandbox2.apimcp.com'
         NEW_IMAGE_TAG = new Date().getTime()
         NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.sandbox.apimgcp.com'
         NEW_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'

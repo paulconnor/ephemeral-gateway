@@ -6,6 +6,7 @@
 .gradle/
 /.idea/
 /*.iml
+/*.docx
 build/
 /out/
 .DS_Store
